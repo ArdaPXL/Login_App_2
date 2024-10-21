@@ -1,0 +1,18 @@
+﻿<Window x:Class="Login_App_Final.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login_App_Final"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Naam" HorizontalAlignment="Left" Margin="151,172,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.881,1.143"/>
+        <Label Content="Wachtwoord" HorizontalAlignment="Left" Margin="151,221,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.426,2.541"/>
+        <TextBox Name="naamTextBox" HorizontalAlignment="Left" Margin="326,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="104,298,0,0" VerticalAlignment="Top" Height="30" Width="131" Click="Button_Click"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="314,298,0,0" VerticalAlignment="Top" Height="30" Width="132" Click="Button_Click_1"/>
+        <PasswordBox Name="wachtwoordTextBox" PasswordChar="*" HorizontalAlignment="Left" Margin="326,229,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
